@@ -1,0 +1,108 @@
+body {
+    background-color:#F7F9FC;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+img {
+    width: 100px;
+}
+
+h1, h2, p {
+    color: #2b2727;
+}
+
+.text-green {
+    color: #51b93c;
+}
+
+.btn-purple {
+    color: white;
+    font-size: 20px;
+    background-color: purple;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin: 10px 10px;
+}
+
+.btn-purple:hover {
+    background-color: black;
+}
+
+/* .fab {
+    display: inline-block;
+} */
+
+.fab:hover:before {
+    color: black;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.profile, .social-links {
+    text-align: center;
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0px 10px 10px rgba(207, 160, 160, 0.1);
+    margin: 20px 0px
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    /* display: block; */
+
+}
+
+.btn-pink{
+    background-color: pink;
+}
+
+p {
+    margin: 30px 10px;
+}
+
+.remove-dots {
+    list-style: none;
+    padding-left: 0px;
+    /* font-size: 17px; */
+}
+
+.remove-dots li {
+    display: inline;
+    padding: 10px;
+
+    /* font-size: 17px; */
+}
+
+.fab {
+    font-size: 26px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+  
